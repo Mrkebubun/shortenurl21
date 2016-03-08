@@ -18,7 +18,7 @@ requests = BitTransferRequests(wallet, username)
 # @click.option('--server', default='localhost:5000', help='ip:port to connect to')
 
 # Comment this line to not use my server
-@click.option('--server', default='128.12.55.131:5000', help='ip:port to connect to')
+@click.option('--server', default='10.244.107.205:5000', help='ip:port to connect to')
 def cli(server, long_url):
 
     """ Call the url-shortening api hosted on the micropayments server"""
